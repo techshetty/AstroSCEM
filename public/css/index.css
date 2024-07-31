@@ -1,0 +1,93 @@
+*{
+    margin:0;padding: 0;font-family: 'Dosis',sans-serif;transition: all 250ms ease-in-out;
+}
+body{
+    background-image: url("/assets/earthbg.jpg");
+    background-size: cover;
+}
+#lForm{
+    width: 35%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: lime;
+    top: 50%;left: 50%;transform: translate(-50%,-50%);
+    position: fixed;
+    border-radius: 30px;
+}
+.lf{
+    width: 50%;
+    height: 8%;
+    background-color: black;
+    color: lime;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    transform: scale(1.5);
+    font-weight: bold;
+    padding-left: 10px;
+}
+#slink{
+    text-decoration: underline;
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+#lhead{
+    margin-top: 20px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    color: #fff;
+}
+#sub{
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;outline: none;
+    width: 200px;
+    height: 30px;
+    font-weight: bolder;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+.lf:focus{
+    width: 60%;
+}
+#slink:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.btn-normal:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+#dateSel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#dateLabel{
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-right: 40px;
+}
+#datetime{
+    padding: 8px;
+    font-weight: bold;
+/*		background-color: rgba(0, 0, 0, 0.8);*/
+    border-radius: 5px;
+    filter: invert(100%);
+    border: none;
+    outline: none;
+}

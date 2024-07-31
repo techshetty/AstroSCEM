@@ -1,0 +1,55 @@
+# Laravel specific files and directories
+/vendor
+/node_modules
+/public/storage
+/public/hot
+/storage/*.key
+/.env
+/.env.*
+/.vscode
+/.idea
+
+# Laravel log, temp and cache files
+/storage/logs
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/views
+/lang/
+/tests/
+/database/
+/config/
+/app/
+# Ignore build and runtime files
+/public/mix-manifest.json
+/public/hot
+/public/css/*.map
+/public/js/*.map
+# IDE and editor specific files
+/.vscode
+/.idea
+/.phpstorm.meta.php
+
+# MacOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Ignore environment and backup files
+.env
+.env.backup
+.env.local
+.env.development
+.env.testing
+.env.production
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.swp
+
+# Ignore coverage reports
+coverage/
